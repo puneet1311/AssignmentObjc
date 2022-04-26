@@ -8,7 +8,7 @@
 #import "SceneDelegate.h"
 
 @interface SceneDelegate ()
-
+// This is SceneDelegate Comment.
 @end
 
 @implementation SceneDelegate
