@@ -8,7 +8,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+// This is App Delegate Comment.
 @end
 
 @implementation AppDelegate

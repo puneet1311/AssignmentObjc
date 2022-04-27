@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		964A165F2818005F002F4E6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A165E2818005F002F4E6B /* AppDelegate.m */; };
 		964A16622818005F002F4E6B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16612818005F002F4E6B /* SceneDelegate.m */; };
-		964A16652818005F002F4E6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16642818005F002F4E6B /* ViewController.m */; };
 		964A16682818005F002F4E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964A16662818005F002F4E6B /* Main.storyboard */; };
 		964A166A28180064002F4E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964A166928180064002F4E6B /* Assets.xcassets */; };
 		964A166D28180064002F4E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964A166B28180064002F4E6B /* LaunchScreen.storyboard */; };
@@ -17,6 +16,7 @@
 		964A167A28180064002F4E6B /* AssignmentObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A167928180064002F4E6B /* AssignmentObjcTests.m */; };
 		964A168428180064002F4E6B /* AssignmentObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A168328180064002F4E6B /* AssignmentObjcUITests.m */; };
 		964A168628180064002F4E6B /* AssignmentObjcUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A168528180064002F4E6B /* AssignmentObjcUITestsLaunchTests.m */; };
+		964A16A3281901D5002F4E6B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16A2281901D5002F4E6B /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,6 @@
 		964A165E2818005F002F4E6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		964A16602818005F002F4E6B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		964A16612818005F002F4E6B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		964A16632818005F002F4E6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		964A16642818005F002F4E6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		964A16672818005F002F4E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		964A166928180064002F4E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		964A166C28180064002F4E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		964A167F28180064002F4E6B /* AssignmentObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964A168328180064002F4E6B /* AssignmentObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignmentObjcUITests.m; sourceTree = "<group>"; };
 		964A168528180064002F4E6B /* AssignmentObjcUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignmentObjcUITestsLaunchTests.m; sourceTree = "<group>"; };
+		964A16A1281901D5002F4E6B /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		964A16A2281901D5002F4E6B /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,13 @@
 		964A165C2818005F002F4E6B /* AssignmentObjc */ = {
 			isa = PBXGroup;
 			children = (
+				964A16942818FA42002F4E6B /* Controllers */,
+				964A16932818FA38002F4E6B /* ViewModels */,
+				964A16922818FA2D002F4E6B /* Utility */,
 				964A165D2818005F002F4E6B /* AppDelegate.h */,
 				964A165E2818005F002F4E6B /* AppDelegate.m */,
 				964A16602818005F002F4E6B /* SceneDelegate.h */,
 				964A16612818005F002F4E6B /* SceneDelegate.m */,
-				964A16632818005F002F4E6B /* ViewController.h */,
-				964A16642818005F002F4E6B /* ViewController.m */,
 				964A16662818005F002F4E6B /* Main.storyboard */,
 				964A166928180064002F4E6B /* Assets.xcassets */,
 				964A166B28180064002F4E6B /* LaunchScreen.storyboard */,
@@ -134,6 +135,109 @@
 				964A168528180064002F4E6B /* AssignmentObjcUITestsLaunchTests.m */,
 			);
 			path = AssignmentObjcUITests;
+			sourceTree = "<group>";
+		};
+		964A16922818FA2D002F4E6B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				964A16992818FB6D002F4E6B /* Alert */,
+				964A16982818FB52002F4E6B /* PasswordValidation */,
+				964A16972818FB47002F4E6B /* EmailValidation */,
+				964A16962818FB3E002F4E6B /* Keychain */,
+				964A16952818FB1C002F4E6B /* Constants */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		964A16932818FA38002F4E6B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				964A169B2818FB98002F4E6B /* Login */,
+				964A169A2818FB8C002F4E6B /* Registration */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		964A16942818FA42002F4E6B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				964A169E2818FC10002F4E6B /* RegisterVC */,
+				964A169D2818FC07002F4E6B /* LoginVC */,
+				964A169C2818FBDA002F4E6B /* DetailsVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		964A16952818FB1C002F4E6B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		964A16962818FB3E002F4E6B /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		964A16972818FB47002F4E6B /* EmailValidation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmailValidation;
+			sourceTree = "<group>";
+		};
+		964A16982818FB52002F4E6B /* PasswordValidation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PasswordValidation;
+			sourceTree = "<group>";
+		};
+		964A16992818FB6D002F4E6B /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		964A169A2818FB8C002F4E6B /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		964A169B2818FB98002F4E6B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		964A169C2818FBDA002F4E6B /* DetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailsVC;
+			sourceTree = "<group>";
+		};
+		964A169D2818FC07002F4E6B /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				964A16A1281901D5002F4E6B /* LoginViewController.h */,
+				964A16A2281901D5002F4E6B /* LoginViewController.m */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		964A169E2818FC10002F4E6B /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RegisterVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +370,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964A16652818005F002F4E6B /* ViewController.m in Sources */,
 				964A165F2818005F002F4E6B /* AppDelegate.m in Sources */,
 				964A167028180064002F4E6B /* main.m in Sources */,
 				964A16622818005F002F4E6B /* SceneDelegate.m in Sources */,
+				964A16A3281901D5002F4E6B /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
