@@ -18,6 +18,13 @@
 		964A168628180064002F4E6B /* AssignmentObjcUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A168528180064002F4E6B /* AssignmentObjcUITestsLaunchTests.m */; };
 		964A16A3281901D5002F4E6B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16A2281901D5002F4E6B /* LoginViewController.m */; };
 		964A16AC28190AFB002F4E6B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16AB28190AFB002F4E6B /* RegisterViewController.m */; };
+		964A16AF28192AE3002F4E6B /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16AD28192AE3002F4E6B /* KeychainItemWrapper.m */; };
+		964A16B328192CBC002F4E6B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964A16B228192CBC002F4E6B /* Security.framework */; };
+		964A16B628193A82002F4E6B /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16B528193A82002F4E6B /* LoginViewModel.m */; };
+		964A16BF28193CCF002F4E6B /* EmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16BE28193CCF002F4E6B /* EmailValidation.m */; };
+		964A16C228193CDB002F4E6B /* PasswordValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16C128193CDB002F4E6B /* PasswordValidation.m */; };
+		964A16C528193ED5002F4E6B /* ConstantsFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16C428193ED5002F4E6B /* ConstantsFile.m */; };
+		964A16C828193F36002F4E6B /* ALertFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16C728193F36002F4E6B /* ALertFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,19 @@
 		964A16A2281901D5002F4E6B /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		964A16AA28190AFB002F4E6B /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		964A16AB28190AFB002F4E6B /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		964A16AD28192AE3002F4E6B /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		964A16AE28192AE3002F4E6B /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		964A16B228192CBC002F4E6B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		964A16B428193A82002F4E6B /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		964A16B528193A82002F4E6B /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		964A16BD28193CCF002F4E6B /* EmailValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailValidation.h; sourceTree = "<group>"; };
+		964A16BE28193CCF002F4E6B /* EmailValidation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailValidation.m; sourceTree = "<group>"; };
+		964A16C028193CDB002F4E6B /* PasswordValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordValidation.h; sourceTree = "<group>"; };
+		964A16C128193CDB002F4E6B /* PasswordValidation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordValidation.m; sourceTree = "<group>"; };
+		964A16C328193ED5002F4E6B /* ConstantsFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantsFile.h; sourceTree = "<group>"; };
+		964A16C428193ED5002F4E6B /* ConstantsFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstantsFile.m; sourceTree = "<group>"; };
+		964A16C628193F36002F4E6B /* ALertFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALertFile.h; sourceTree = "<group>"; };
+		964A16C728193F36002F4E6B /* ALertFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALertFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964A16B328192CBC002F4E6B /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +112,7 @@
 				964A167828180064002F4E6B /* AssignmentObjcTests */,
 				964A168228180064002F4E6B /* AssignmentObjcUITests */,
 				964A165B2818005F002F4E6B /* Products */,
+				964A16B128192CBC002F4E6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +196,8 @@
 		964A16952818FB1C002F4E6B /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				964A16C328193ED5002F4E6B /* ConstantsFile.h */,
+				964A16C428193ED5002F4E6B /* ConstantsFile.m */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -181,6 +205,8 @@
 		964A16962818FB3E002F4E6B /* Keychain */ = {
 			isa = PBXGroup;
 			children = (
+				964A16AE28192AE3002F4E6B /* KeychainItemWrapper.h */,
+				964A16AD28192AE3002F4E6B /* KeychainItemWrapper.m */,
 			);
 			path = Keychain;
 			sourceTree = "<group>";
@@ -188,6 +214,8 @@
 		964A16972818FB47002F4E6B /* EmailValidation */ = {
 			isa = PBXGroup;
 			children = (
+				964A16BD28193CCF002F4E6B /* EmailValidation.h */,
+				964A16BE28193CCF002F4E6B /* EmailValidation.m */,
 			);
 			path = EmailValidation;
 			sourceTree = "<group>";
@@ -195,6 +223,8 @@
 		964A16982818FB52002F4E6B /* PasswordValidation */ = {
 			isa = PBXGroup;
 			children = (
+				964A16C028193CDB002F4E6B /* PasswordValidation.h */,
+				964A16C128193CDB002F4E6B /* PasswordValidation.m */,
 			);
 			path = PasswordValidation;
 			sourceTree = "<group>";
@@ -202,6 +232,8 @@
 		964A16992818FB6D002F4E6B /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				964A16C628193F36002F4E6B /* ALertFile.h */,
+				964A16C728193F36002F4E6B /* ALertFile.m */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -216,6 +248,8 @@
 		964A169B2818FB98002F4E6B /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				964A16B428193A82002F4E6B /* LoginViewModel.h */,
+				964A16B528193A82002F4E6B /* LoginViewModel.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -243,6 +277,14 @@
 				964A16AB28190AFB002F4E6B /* RegisterViewController.m */,
 			);
 			path = RegisterVC;
+			sourceTree = "<group>";
+		};
+		964A16B128192CBC002F4E6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				964A16B228192CBC002F4E6B /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,9 +419,15 @@
 			files = (
 				964A16AC28190AFB002F4E6B /* RegisterViewController.m in Sources */,
 				964A165F2818005F002F4E6B /* AppDelegate.m in Sources */,
+				964A16AF28192AE3002F4E6B /* KeychainItemWrapper.m in Sources */,
 				964A167028180064002F4E6B /* main.m in Sources */,
+				964A16B628193A82002F4E6B /* LoginViewModel.m in Sources */,
+				964A16C528193ED5002F4E6B /* ConstantsFile.m in Sources */,
 				964A16622818005F002F4E6B /* SceneDelegate.m in Sources */,
 				964A16A3281901D5002F4E6B /* LoginViewController.m in Sources */,
+				964A16C228193CDB002F4E6B /* PasswordValidation.m in Sources */,
+				964A16C828193F36002F4E6B /* ALertFile.m in Sources */,
+				964A16BF28193CCF002F4E6B /* EmailValidation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
