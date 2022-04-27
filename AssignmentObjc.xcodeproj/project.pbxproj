@@ -17,6 +17,7 @@
 		964A168428180064002F4E6B /* AssignmentObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A168328180064002F4E6B /* AssignmentObjcUITests.m */; };
 		964A168628180064002F4E6B /* AssignmentObjcUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A168528180064002F4E6B /* AssignmentObjcUITestsLaunchTests.m */; };
 		964A16A3281901D5002F4E6B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16A2281901D5002F4E6B /* LoginViewController.m */; };
+		964A16AC28190AFB002F4E6B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16AB28190AFB002F4E6B /* RegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		964A168528180064002F4E6B /* AssignmentObjcUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignmentObjcUITestsLaunchTests.m; sourceTree = "<group>"; };
 		964A16A1281901D5002F4E6B /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		964A16A2281901D5002F4E6B /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		964A16AA28190AFB002F4E6B /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		964A16AB28190AFB002F4E6B /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +239,8 @@
 		964A169E2818FC10002F4E6B /* RegisterVC */ = {
 			isa = PBXGroup;
 			children = (
+				964A16AA28190AFB002F4E6B /* RegisterViewController.h */,
+				964A16AB28190AFB002F4E6B /* RegisterViewController.m */,
 			);
 			path = RegisterVC;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964A16AC28190AFB002F4E6B /* RegisterViewController.m in Sources */,
 				964A165F2818005F002F4E6B /* AppDelegate.m in Sources */,
 				964A167028180064002F4E6B /* main.m in Sources */,
 				964A16622818005F002F4E6B /* SceneDelegate.m in Sources */,
