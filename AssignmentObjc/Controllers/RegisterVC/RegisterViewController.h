@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UIButton *registerButton;
 - (IBAction)registerButtonAction:(UIButton *)sender;
+-(void)clearText;
 
 
 @end
