@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		961FBAF4281A882300BFA62D /* RegisterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 961FBAF3281A882300BFA62D /* RegisterViewModel.m */; };
+		961FBAF8281A963400BFA62D /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961FBAF7281A963400BFA62D /* DetailsViewController.m */; };
 		964A165F2818005F002F4E6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A165E2818005F002F4E6B /* AppDelegate.m */; };
 		964A16622818005F002F4E6B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964A16612818005F002F4E6B /* SceneDelegate.m */; };
 		964A16682818005F002F4E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964A16662818005F002F4E6B /* Main.storyboard */; };
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		961FBAF2281A882300BFA62D /* RegisterViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewModel.h; sourceTree = "<group>"; };
 		961FBAF3281A882300BFA62D /* RegisterViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewModel.m; sourceTree = "<group>"; };
+		961FBAF6281A963400BFA62D /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		961FBAF7281A963400BFA62D /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		964A165A2818005F002F4E6B /* AssignmentObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964A165D2818005F002F4E6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		964A165E2818005F002F4E6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -262,6 +265,8 @@
 		964A169C2818FBDA002F4E6B /* DetailsVC */ = {
 			isa = PBXGroup;
 			children = (
+				961FBAF6281A963400BFA62D /* DetailsViewController.h */,
+				961FBAF7281A963400BFA62D /* DetailsViewController.m */,
 			);
 			path = DetailsVC;
 			sourceTree = "<group>";
@@ -426,6 +431,7 @@
 				964A165F2818005F002F4E6B /* AppDelegate.m in Sources */,
 				964A16AF28192AE3002F4E6B /* KeychainItemWrapper.m in Sources */,
 				961FBAF4281A882300BFA62D /* RegisterViewModel.m in Sources */,
+				961FBAF8281A963400BFA62D /* DetailsViewController.m in Sources */,
 				964A167028180064002F4E6B /* main.m in Sources */,
 				964A16B628193A82002F4E6B /* LoginViewModel.m in Sources */,
 				964A16C528193ED5002F4E6B /* ConstantsFile.m in Sources */,

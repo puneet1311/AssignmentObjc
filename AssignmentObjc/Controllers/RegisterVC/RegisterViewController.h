@@ -21,7 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (IBAction)registerButtonAction:(UIButton *)sender;
 -(void)clearText;
 
-
 @end
 
 NS_ASSUME_NONNULL_END

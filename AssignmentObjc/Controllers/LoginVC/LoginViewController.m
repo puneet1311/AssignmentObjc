@@ -11,6 +11,7 @@
 #import "RegisterViewController.h"
 #import "ALertFile.h"
 #import "ConstantsFile.h"
+#import "DetailsViewController.h"
 
 
 /// Taken reference from this link :- https://stackoverflow.com/a/30804898
@@ -55,8 +56,13 @@
             NSData *password22 = [keychainItem objectForKey:(__bridge id)kSecValueData];
             NSString *emailData = [keychainItem objectForKey:(__bridge id)kSecAttrAccount];
             NSString* passwordValue = [[NSString alloc] initWithData:password22 encoding:NSUTF8StringEncoding];
+            NSLog(@"email:%@",emailData);
+            NSLog(@"password:%@",password22);
+            NSLog(@"passwordValue:%@",passwordValue);
+            
             if ([self.usernameTextField.text isEqual:emailData] && [self.passwordTextField.text isEqual:passwordValue]) {
                 NSLog(@"Success");
+                [self navigateToDetailsVC];
             } else {
                 [alert showAlertMsg:self title:alertMessage message:userNotFound];
             }
@@ -67,9 +73,27 @@
 }
 
 - (IBAction)registerButtonAction:(UIButton *)sender {
+    [self navigateToRegisterVC];
 }
 
-/// Text field delegate methods
+
+/// Navigation to "Details Screen"
+-(void)navigateToDetailsVC {
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main"
+                                                                 bundle:nil];
+    DetailsViewController *obj =
+            [storyboard instantiateViewControllerWithIdentifier:@"DetailsViewController"];
+    [self.navigationController pushViewController:obj animated:YES];
+}
+
+/// Navigation to "Register Screen"
+-(void)navigateToRegisterVC {
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main"
+                                                                 bundle:nil];
+    RegisterViewController *obj =
+            [storyboard instantiateViewControllerWithIdentifier:@"RegisterViewController"];
+    [self.navigationController pushViewController:obj animated:YES];
+}
 
 
 @end
