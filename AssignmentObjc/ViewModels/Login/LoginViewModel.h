@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LoginViewModel : UIViewController
+@interface LoginViewModel : NSObject
 - (void)loginWithEmail:(NSString *)email password:(NSString *)password completion:(void (^)(NSString* success))completionBlock;
 @end
 

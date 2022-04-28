@@ -6,6 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ALertFile.h"
+#import "RegisterViewModel.h"
+#import "KeychainItemWrapper.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

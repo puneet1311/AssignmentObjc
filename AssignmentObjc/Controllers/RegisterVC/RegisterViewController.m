@@ -6,6 +6,9 @@
 //
 
 #import "RegisterViewController.h"
+#import "RegisterViewModel.h"
+#import "ALertFile.h"
+#import "KeychainItemWrapper.h"
 
 @interface RegisterViewController ()
 

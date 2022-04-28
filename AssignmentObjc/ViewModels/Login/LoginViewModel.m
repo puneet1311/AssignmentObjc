@@ -9,11 +9,8 @@
 #import "EmailValidation.h"
 #import "PasswordValidation.h"
 
-@interface LoginViewModel ()
+@implementation LoginViewModel: NSObject
 
-@end
-
-@implementation LoginViewModel
 - (void)loginWithEmail:(NSString *)email password:(NSString *)password completion:(void (^)(NSString * _Nonnull))completionBlock{
     EmailValidation *emailvalidation = [[EmailValidation alloc] init];
     PasswordValidation *passwordValidaton = [[PasswordValidation alloc] init];
