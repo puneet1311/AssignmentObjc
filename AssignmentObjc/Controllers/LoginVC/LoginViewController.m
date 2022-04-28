@@ -60,6 +60,7 @@
             NSLog(@"password:%@",password22);
             NSLog(@"passwordValue:%@",passwordValue);
             
+            /// checking the data if email already exists in keychain.
             if ([self.usernameTextField.text isEqual:emailData] && [self.passwordTextField.text isEqual:passwordValue]) {
                 NSLog(@"Success");
                 [self navigateToDetailsVC];
