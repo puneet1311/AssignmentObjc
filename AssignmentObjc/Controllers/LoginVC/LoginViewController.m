@@ -29,8 +29,8 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:true];
     /// Initially we keep textfields empty.
-    _usernameTextField.text = @"";
-    _passwordTextField.text = @"";
+    _usernameTextField.text = @"abc123@gmail.com";
+    _passwordTextField.text = @"Password@123";
 }
 
 /// IB actions

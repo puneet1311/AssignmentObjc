@@ -10,7 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DetailsViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITableView *detailsTableView;
+@property (nonatomic, strong) NSMutableArray *dataArray;
 @end
 
 NS_ASSUME_NONNULL_END
