@@ -16,39 +16,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dT8-pE-CUn">
-                                <rect key="frame" x="20" y="332" width="374" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dT8-pE-CUn">
+                                <rect key="frame" x="20" y="405" width="374" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OIp-vX-TRi">
-                                <rect key="frame" x="20" y="374" width="374" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OIp-vX-TRi">
+                                <rect key="frame" x="20" y="439.5" width="374" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7z-X7-5uc">
-                                <rect key="frame" x="20" y="436" width="374" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7z-X7-5uc">
+                                <rect key="frame" x="20" y="494" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Login"/>
                                 <connections>
                                     <action selector="loginButtonAction:" destination="LBq-2a-6tJ" eventType="touchUpInside" id="a2S-q1-SLB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHM-Vf-HMF">
-                                <rect key="frame" x="20" y="504" width="374" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHM-Vf-HMF">
+                                <rect key="frame" x="20" y="533" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Register"/>
                                 <connections>
                                     <action selector="registerButtonAction:" destination="LBq-2a-6tJ" eventType="touchUpInside" id="I9U-hl-ZcH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76Y-rt-S9r">
-                                <rect key="frame" x="20" y="44" width="374" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76Y-rt-S9r">
+                                <rect key="frame" x="20" y="151.5" width="374" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -56,6 +51,21 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GPN-V9-nwb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GPN-V9-nwb" firstAttribute="bottom" secondItem="oHM-Vf-HMF" secondAttribute="bottom" constant="298" id="0Bs-3p-eAq"/>
+                            <constraint firstItem="GPN-V9-nwb" firstAttribute="trailing" secondItem="dT8-pE-CUn" secondAttribute="trailing" constant="20" id="7ZQ-Rl-v8E"/>
+                            <constraint firstItem="GPN-V9-nwb" firstAttribute="trailing" secondItem="oHM-Vf-HMF" secondAttribute="trailing" constant="20" id="DFq-kH-Ped"/>
+                            <constraint firstItem="oHM-Vf-HMF" firstAttribute="top" secondItem="g7z-X7-5uc" secondAttribute="bottom" constant="8" id="I8l-CV-o91"/>
+                            <constraint firstItem="g7z-X7-5uc" firstAttribute="top" secondItem="OIp-vX-TRi" secondAttribute="bottom" constant="28" id="IRP-ZE-QLP"/>
+                            <constraint firstItem="OIp-vX-TRi" firstAttribute="top" secondItem="dT8-pE-CUn" secondAttribute="bottom" constant="8" id="K5c-4r-K2u"/>
+                            <constraint firstItem="dT8-pE-CUn" firstAttribute="leading" secondItem="GPN-V9-nwb" secondAttribute="leading" constant="20" id="OHJ-Yq-YAg"/>
+                            <constraint firstItem="dT8-pE-CUn" firstAttribute="top" secondItem="76Y-rt-S9r" secondAttribute="bottom" constant="215" id="Rnr-pi-0sC"/>
+                            <constraint firstItem="g7z-X7-5uc" firstAttribute="leading" secondItem="GPN-V9-nwb" secondAttribute="leading" constant="20" id="T8I-hk-mD5"/>
+                            <constraint firstItem="OIp-vX-TRi" firstAttribute="leading" secondItem="GPN-V9-nwb" secondAttribute="leading" constant="20" id="XKE-lp-Oho"/>
+                            <constraint firstItem="GPN-V9-nwb" firstAttribute="trailing" secondItem="OIp-vX-TRi" secondAttribute="trailing" constant="20" id="nJs-rl-JjG"/>
+                            <constraint firstItem="GPN-V9-nwb" firstAttribute="trailing" secondItem="g7z-X7-5uc" secondAttribute="trailing" constant="20" id="nTx-K2-2kE"/>
+                            <constraint firstItem="oHM-Vf-HMF" firstAttribute="leading" secondItem="GPN-V9-nwb" secondAttribute="leading" constant="20" id="r7c-xP-4cM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Up1-4b-boy"/>
                     <connections>
