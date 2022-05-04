@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    /// Title on navigation item
     self.navigationItem.title = @"Details Screen.";
 
     [self getDataFrom:@"https://randomuser.me/api/?results=8"];
